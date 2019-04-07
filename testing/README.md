@@ -1,15 +1,20 @@
 ##Project Generation
-#npm install -g create-react-app
-#create-react-app testing
+
+npm install -g create-react-app
+create-react-app testing
 
 ##Our First Test
-#npm run test
+
+npm run test
 
 ##Install Dependencies
-#npm install --save redux react-redux
+
+npm install --save redux react-redux
 
 ##Rendering app
-##npm run start
+
+npm run start
 
 ##Enzyme Setup
-#npm install --save enzyme enzyme-adapter-react-16
+
+npm install --save enzyme enzyme-adapter-react-16
