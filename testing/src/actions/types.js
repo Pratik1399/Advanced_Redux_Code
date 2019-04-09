@@ -1,0 +1,1 @@
+export default 'SAVE_COMMENT'='save_comment';
