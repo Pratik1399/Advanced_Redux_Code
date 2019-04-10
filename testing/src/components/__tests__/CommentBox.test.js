@@ -1,11 +1,21 @@
 import React from "react";
 import { mount } from "enzyme";
 import CommentBox from "components/CommentBox";
+import Root from "Root";
+//import { createStore, applyMiddleware } from "redux";
+//import { Provider } from "react-redux";
+//import reducers from "reducers";
 
 let wrapped;
 
 beforeEach(() => {
-  wrapped = mount(<CommentBox />);
+  wrapped = mount(
+    // <Provider store={createStore(reducers,{},applyMiddleware(Pratik))}>
+    <Root>
+      <CommentBox />
+    </Root>
+    // </Provider>
+  );
 });
 
 afterEach(() => {
