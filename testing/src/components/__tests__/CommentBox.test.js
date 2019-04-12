@@ -22,12 +22,12 @@ afterEach(() => {
   wrapped.unmount();
 });
 
-it("has a textarea and a button", () => {
+it("has a textarea and a two buttons", () => {
   //const wrapped = mount(<CommentBox />);
   // console.log(wrapped.find('textarea'));
   // console.log(wrapped.find('button'));
   expect(wrapped.find("textarea").length).toEqual(1);
-  expect(wrapped.find("button").length).toEqual(1);
+  expect(wrapped.find("button").length).toEqual(2);
 });
 
 describe("the text area", () => {
