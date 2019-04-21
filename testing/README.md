@@ -22,3 +22,7 @@ npm install --save enzyme enzyme-adapter-react-16
 ##One More Feature
 
 npm install --save axios redux-promise moxios
+
+##Adding React Router
+
+npm install --save react-router-dom
