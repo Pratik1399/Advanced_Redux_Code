@@ -1,3 +1,1 @@
-#Testing
 
-#Higher Order Component
